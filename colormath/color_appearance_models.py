@@ -682,7 +682,7 @@ class RLAB(object):
                      [0, 0, 1]])
 
     def __init__(self, x, y, z, x_n, y_n, z_n, y_n_abs, sigma, d):
-        """
+        r"""
         :param x: X value of test sample :math:`X`.
         :param y: Y value of test sample :math:`Y`.
         :param z: Z value of test sample :math:`Z`.
@@ -786,7 +786,7 @@ class ATD95(object):
         return self._saturation
 
     def __init__(self, x, y, z, x_0, y_0, z_0, y_0_abs, k_1, k_2, sigma=300):
-        """
+        r"""
         :param x: X value of test sample :math:`X`.
         :param y: Y value of test sample :math:`Y`.
         :param z: Z value of test sample :math:`Z`.
